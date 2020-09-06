@@ -1,0 +1,53 @@
+body { 
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:1.125rem;
+    font-weight: 300;
+    letter-spacing:normal;
+}
+
+img {
+    width:100%;
+    display: block;
+    margin: 1em 0;
+}
+
+#main-header {
+  
+  height:9em;
+  width:100%;
+  background-color: black;
+  color:white;
+  text-align:center;
+  padding:1em;
+}
+#main-footer  {
+    height:9em;
+    background-color: black;
+    color:white;
+    text-align:center;
+    
+}
+#main-footer p {
+    padding-top: 4em;
+}
+
+#img-div {
+  text-align:center;
+}
+#flexbox-container {
+    display:flex;
+    justify-content: center;
+    width:60%;
+    margin:auto;
+}
+#tribute-info {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
+ul, li {
+    padding:0.5em;
+}
+
